@@ -22,7 +22,7 @@ const handleSubmit = async (event: Event) => {
 
     alert("Login realizado com sucesso!");
   } catch (error) {
-    alert("Erro ao autenticar. Verifique seus dados.");
+    alert(error);
   } finally {
     isLoading.value = false;
   }
