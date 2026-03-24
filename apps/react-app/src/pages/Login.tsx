@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import type { Authentication } from "./../../../../packages/domain/usecases";
+import type { Authentication } from "./../../../../packages/core/domain/usecases";
 
 type LoginProps = {
   authentication: Authentication;

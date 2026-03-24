@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import type { Authentication } from "./../../../../packages/domain/usecases";
+import type { Authentication } from "./../../../../packages/core/domain/usecases";
 
 const props = defineProps<{
   authentication: Authentication;

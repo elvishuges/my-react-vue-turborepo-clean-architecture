@@ -1,6 +1,6 @@
 import { Login } from "../../pages/Login";
 
-import { makeRemoteAuthentication } from "../../../../../packages/main/factories/usecases";
+import { makeRemoteAuthentication } from "../../../../../packages/core/main/factories/usecases";
 
 import React from "react";
 export const makeLogin: React.FC = () => {
