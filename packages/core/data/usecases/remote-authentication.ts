@@ -17,6 +17,7 @@ export class RemoteAuthentication implements Authentication {
       method: "post",
       body: params,
     });
+
     switch (httpResponse.statusCode) {
       case HttpStatusCode.ok:
         return httpResponse.body;

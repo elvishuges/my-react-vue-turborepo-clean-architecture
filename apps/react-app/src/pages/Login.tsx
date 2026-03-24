@@ -19,6 +19,8 @@ export function Login({ authentication }: LoginProps) {
       await authentication.auth({ email, password });
       alert("Login realizado com sucesso!");
     } catch (error) {
+      console.log("error", error);
+
       alert("Erro ao autenticar. Verifique seus dados.");
     } finally {
       setIsLoading(false);
