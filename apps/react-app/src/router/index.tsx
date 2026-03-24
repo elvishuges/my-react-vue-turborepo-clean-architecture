@@ -4,7 +4,7 @@ export function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Lofin />} />
+        <Route path="/login" Component={makeLogin} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@myorg/domain": ["packages/domain/src"],
+      "@myorg/data": ["packages/data/src"],
+      "@myorg/infra": ["packages/infra/src"]
+    }
+  }
+}
