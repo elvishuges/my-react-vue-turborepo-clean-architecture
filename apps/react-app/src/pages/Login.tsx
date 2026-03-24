@@ -28,7 +28,7 @@ export function Login({ authentication }: LoginProps) {
   return (
     <div style={styles.container}>
       <form onSubmit={handleSubmit} style={styles.form}>
-        <h2>Login</h2>
+        <h2>Login React</h2>
 
         <input
           type="email"

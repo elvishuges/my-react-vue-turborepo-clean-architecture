@@ -32,7 +32,7 @@ const handleSubmit = async (event: Event) => {
 <template>
   <div class="container">
     <form @submit="handleSubmit" class="form">
-      <h2>Login</h2>
+      <h2>Login Vue</h2>
 
       <input
         type="email"
